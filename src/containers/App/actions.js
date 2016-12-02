@@ -4,6 +4,9 @@ import {
   FETCH_CITIES_ERROR,
   SEARCH_CITY,
   SORT_COL,
+  GEOCODE_CITY,
+  GEOCODE_CITY_SUCCESS,
+  GEOCODE_CITY_ERROR,
 } from './constants';
 
 export function fetchCities() {
@@ -38,5 +41,26 @@ export function sortCol(col) {
   return {
     type: SORT_COL,
     col,
+  };
+}
+
+export function geocodeCity(city) {
+  return {
+    type: GEOCODE_CITY,
+    city
+  };
+}
+
+export function cityGeocoded(geocode) {
+  return {
+    type: GEOCODE_CITY_SUCCESS,
+    geocode,
+  };
+}
+
+export function cityGeocodingError(error) {
+  return {
+    type: GEOCODE_CITY_ERROR,
+    error,
   };
 }

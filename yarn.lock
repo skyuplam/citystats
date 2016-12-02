@@ -3142,6 +3142,10 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
+leaflet@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.0.2.tgz#fa4fbcb7844944fc2bfb0bcf9ca0dea13463ca21"
+
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/levn/-/levn-0.3.0.tgz#3b09924edf9f083c0490fdd4c0bc4421e04764ee"
@@ -4212,9 +4216,9 @@ react-dom@^15.4.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
-react-leaflet@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-leaflet/-/react-leaflet-1.0.1.tgz#aac306d71b8d9aa24b63487801a2c2f8598885dc"
+react-leaflet@next:
+  version "1.0.0-rc.3"
+  resolved "https://registry.yarnpkg.com/react-leaflet/-/react-leaflet-1.0.0-rc.3.tgz#779965a695133f35c5465a55d19592441d278026"
   dependencies:
     lodash "^4.0.0"
     warning "^3.0.0"

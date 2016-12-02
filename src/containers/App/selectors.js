@@ -30,9 +30,21 @@ const selectCities = () => createSelector(
     sort.order ? 'asc' : 'desc'),
 );
 
+const selectCity = () => createSelector(
+  selectGlobal(),
+  (globalState) => globalState.get('city'),
+);
+
+const selectGeocode = () => createSelector(
+  selectGlobal(),
+  (globalState) => globalState.get('geocode').toJS(),
+);
+
 export {
   selectGlobal,
   selectCol,
   selectSearch,
   selectCities,
+  selectCity,
+  selectGeocode,
 };

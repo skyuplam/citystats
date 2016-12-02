@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  padding: 12px;
+}
+
+.leaflet-container {
+  height: 400px;
+  width: 50%;
+  margin: 0;
+}
+
+.data {
+  width: 50%;
+  display: block;
+}
+
+.data-table {
+  width: 100%;
+  display: block;
+  height: 400px;
+  overflow: scroll;
+}
