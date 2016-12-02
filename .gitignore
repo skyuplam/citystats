@@ -1,0 +1,33 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+coverage
+
+# testing
+coverage
+
+# production
+build
+build.tar
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# npm cache directory
+.npm
+
+# Yarn Integrity file
+.yarn-integrity
+
+# misc
+.DS_Store
+.env
